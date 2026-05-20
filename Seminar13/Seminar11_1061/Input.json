@@ -1,0 +1,20 @@
+[
+  {
+    "Categorie": "TERENURI",
+    "Denumire": "Teren depozit",
+    "ValInv": 50000,
+    "DN": 100,
+    "Data": "12.09.2011",
+    "Locatie": "Punct de lucru Covasna",
+    "NrInv": 300
+  },
+  {
+    "Categorie": "MOBILIER",
+    "Denumire": "Dulap scule",
+    "ValInv": 500,
+    "DN": 10,
+    "Data": "20.12.2024",
+    "Locatie": "Punct de lucru Covasna",
+    "NrInv": 101
+  }
+]

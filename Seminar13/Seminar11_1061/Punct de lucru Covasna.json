@@ -1,0 +1,20 @@
+[
+        {
+                "Categorie": "CONSTRUCTII",
+                "Denumire": "Sediu Covasna",
+                "ValInv": 200000,
+                "DN": 100,
+                "Data": "15.03.2014",
+                "Locatie": "{Punct de lucru Covasna,null}",
+                "NrInv": 3
+        },
+        {
+                "Categorie": "ECHIPAMENTE_UTILAJE",
+                "Denumire": "Semanatoare John Deer",
+                "ValInv": 50000,
+                "DN": 10,
+                "Data": "20.06.2015",
+                "Locatie": "{Punct de lucru Covasna,null}",
+                "NrInv": 100
+        }
+]
