@@ -1,0 +1,71 @@
+Subiectul 202 - Actiuni V2
+
+Fie următoarele date de intrare:
+
+a) Baza de date SQLite S204_Actiuni.db conținând informații despre acțiunile disponibile în tabela Actiuni (simbol - text unic, denumire - text, ziua1-5 - float) în următorul format:
+CREATE TABLE Actiuni (Simbol TEXT, Denumire TEXT, Ziua1 REAL, Ziua2 REAL, Ziua3 REAL, Ziua4 REAL, Ziua5 REAL);
+
+Exemplu valori:
+('TLV', 'Banca Transilvania S.A.', 32.16, 32.24, 31.64, 31.22, 30.9);
+('SNP', 'OMV Petrom S.A.', 0.7635, 0.749, 0.7435, 0.733, 0.73);
+...
+
+b) Informații despre tranzacțiile aferente unui portofoliu client în fișierul text S204_Tranzactii.csv. 
+Fiecare linie din fișier conține datele aferente unei tranzacții cu următoarele informații:
+* Date - text, 
+* Direction - text, 'Buy' clientul cumpără sau 'Sell' clientul vinde
+* Symbol: text, una dintre acțiunile de la punctul a)
+* Quantity - întreg, numărul de acțiuni tranzacționate
+* Price - float, prețul per acțiune
+
+Exemplu:
+2025-06-17,Buy,H2O,500,122.0
+2025-06-17,Sell,SNP,1000,0.7635
+2025-06-17,Buy,EL,300,14.76
+...
+
+
+1 - 2p) Să se citească lista de acțiuni și să se afișeze lista de acțiuni (Simbol, Denumire și prețul din Ziua5) ordonată alfabetic în funcție de simbol.
+
+Exemplu:
+========== CERINTA 1 ==========
+ BRD, BRD - Groupe SG S.A.          , 19.10 RON
+DIGI, Digi Communications N.V.      , 71.20 RON
+  EL, Electrica S.A.                , 14.28 RON
+...
+
+2 - 2p) Să se afișeze valoarea totală (preț x cantitate) a tranzacțiilor de cumpărare, respectiv de vânzare.
+
+Exemplu:
+========== CERINTA 2 ==========
+Total cumparare: 180801.80 RON
+Total vanzare: ...
+
+3 - 3p) Să se genereze un fișier JSON care să conțină portofoliul clientului. 
+Pentru fiecare simbol cu tranzacții asociate cantitatea de acțiuni deținute este suma cantităților cumpărate minus suma cantităților vândute.
+Prețul curent este prețul asociat simbolului pentru ziua curentă (Ziua5). Valoarea este preț curent x cantitate.
+Fișierul JSON va conține un array de obiecte de forma (Simbol, Denumire, Cantitate, Valoare) sortate descrescător în funcție de valoare.
+
+1p - calculul și afișarea portofoliului cantitativ (Simbol, Valoare)
+1p - calculul și afișarea portofoliului conform cerinței (Simbol, Denumire, Cantitate, Valoare) + sortare
+1p - salvarea în format JSON
+
+Exemplu:
+========== CERINTA 3 ==========
+[
+  {"Simbol":"H2O","Valoare":67716,"Denumire":"Hidroelectrica S.A.","Cantitate":570},  {"Simbol":"TLV","Valoare":16995,"Denumire":"Banca Transilvania S.A.","Cantitate":550},
+....
+]
+
+4 - 2p) Să se implementeze funcționalitățile de server și client TCP/IP și să se execute următorul scenariu:
+- componenta client trimite serverului un simbol;
+- componenta server va întoarce clientului denumirea și prețul curent (Ziua5).
+- componentele server și client trebuie lansate folosind fire de execuție din programul principal; server-ul se oprește după servirea primei cereri;
+1p - implementare funcționalitate de bază, 1p - respectare cerințe fire de execuție
+
+
+Observatii:
+- 1p din oficiu
+- criteriu de acordare a punctajului: afișarea corectă conform cerinței
+- nu se acordă punctaj parțial pentru cerințe
+- nu se acordă punctaj pentru programe cu erori de compilare sau de execuție

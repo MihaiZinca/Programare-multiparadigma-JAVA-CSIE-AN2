@@ -1,0 +1,65 @@
+1p oficiu + 9p subiect
+
+În fișierul sectii.json se găsesc informații privind secțiile unui spital de urgență. Fisierul este structurat astfel:
+
+[
+  {
+    "cod_sectie": 1,
+    "denumire": "ORL",
+    "numar_locuri": 10
+  },
+  ...
+]
+
+Baza de date SQLite spital.db contine table Pacienti in case află informații privind pacienții internați,
+câte o inregistrare pentru fiecare pacient, astfel:
+
+CNP      |NumePacient       |VarstaPacient|CodSectie|
+---------+------------------+-------------+---------+
+223495443|Pastrascu Aurelia |           37|        1|
+123495443|Iftimie Daniel    |           53|        1|
+223349543|Marcut Cornelia   |           47|        2|
+...
+
+CNP-ul este de tip long, numele este șir de caractere iar codul secției si varsta sunt intregi.
+Să se scrie o aplicație Java care să îndeplinească următoarele cerințe:
+
+1) Să afișeze la consolă lista secțiilor spitalului cu un număr de locuri strict mai mare decât 5
+Punctaj: 2 puncte
+Criteriu de acordare a punctajului: afișarea corectă la consolă
+
+2) Să afișeze la consolă un raport al internărilor pe secții, de forma:
+
+Cod sectie                Denumire sectie       Număr pacienti
+       1                           ORL                   2
+       2                  DERMATOLOGIE                   2
+...
+Punctaj: 2 puncte
+Criteriu de acordare a punctajului: afișarea corectă la consolă
+
+3) Să se scrie în fișierul text situatie.txt un raport cu secțiile spitalului sortate descrescător
+după varsta medie a pacientilor internați pe secție. Pentru fiecare secție se va afișa codul, denumirea,
+numărul de locuri și vârsta medie a pacienților, in formatul urmator:
+
+Cod sectie                Denumire sectie         Număr locuri         Varsta medie
+       2                  DERMATOLOGIE                   7                50.5
+       3                  OFTALMOLOGIE                   4                47.5
+...
+Punctaj: 3 puncte
+Criteriu de acordare a punctajului: urmărirea fișierului situatie.txt
+
+4) Să implementeze funcționalitățile de server și client TCP/IP și să se execute următorul scenariu:
+componenta client trimite serverului codul unei secții iar componenta server va întoarce clientului
+numărul de locuri libere. Serverul se va opri după raspunsul la o cerere client.
+Clientul și serverul se vor implementa ca două fire de execuție ce sunt lansate din firul
+de execuție principal al procesului.
+Punctaj:
+1 punct - afișarea la consolă de către server a codului primit de la client
+1 punct - afișarea la consolă de către client a numărului de locuri libere
+Criteriu de acordare a punctajului: afișarea corectă la consolă a mesajelor din cele 2 thread-uri
+
+Observatii:
+- 1p din oficiu
+- criteriu de acordare a punctajului: afișarea corectă conform cerinței
+- nu se acordă punctaj parțial pentru cerințe
+- nu se acordă punctaj pentru programe cu erori de compilare sau de execuție

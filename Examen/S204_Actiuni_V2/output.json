@@ -1,0 +1,62 @@
+[
+  {
+    "Simbol": "H2O",
+    "Valoare": 67716,
+    "Denumire": "Hidroelectrica S.A.",
+    "Canitate": 570
+  },
+  {
+    "Simbol": "TLV",
+    "Valoare": 16995,
+    "Denumire": "Banca Transilvania S.A.",
+    "Canitate": 550
+  },
+  {
+    "Simbol": "BRD",
+    "Valoare": 7258.000000000001,
+    "Denumire": "BRD - Groupe SG S.A.",
+    "Canitate": 380
+  },
+  {
+    "Simbol": "SNG",
+    "Valoare": 5856.599999999999,
+    "Denumire": "S.N.G.N. Romgaz S.A.",
+    "Canitate": 860
+  },
+  {
+    "Simbol": "EL",
+    "Valoare": 1999.1999999999998,
+    "Denumire": "Electrica S.A.",
+    "Canitate": 140
+  },
+  {
+    "Simbol": "SNP",
+    "Valoare": 511,
+    "Denumire": "OMV Petrom S.A.",
+    "Canitate": 700
+  },
+  {
+    "Simbol": "DIGI",
+    "Valoare": -10680,
+    "Denumire": "Digi Communications N.V.",
+    "Canitate": -150
+  },
+  {
+    "Simbol": "TGN",
+    "Valoare": -13837.5,
+    "Denumire": "Transgaz S.A.",
+    "Canitate": -410
+  },
+  {
+    "Simbol": "TEL",
+    "Valoare": -16966,
+    "Denumire": "Transelectrica S.A.",
+    "Canitate": -340
+  },
+  {
+    "Simbol": "SNN",
+    "Valoare": -19044,
+    "Denumire": "S.N. Nuclearelectrica S.A.",
+    "Canitate": -460
+  }
+]

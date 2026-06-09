@@ -1,0 +1,72 @@
+[
+  {
+    "CodTren": 59615,
+    "TipLocomotiva": "diesel",
+    "Vagoane": [632, 655]
+  },
+  {
+    "CodTren": 92397,
+    "TipLocomotiva": "aburi",
+    "Vagoane": [671, 757, 831, 197, 631]
+  },
+  {
+    "CodTren": 85674,
+    "TipLocomotiva": "diesel",
+    "Vagoane": [775, 599, 722, 575, 668, 755]
+  },
+  {
+    "CodTren": 16006,
+    "TipLocomotiva": "aburi",
+    "Vagoane": [832, 360]
+  },
+  {
+    "CodTren": 47930,
+    "TipLocomotiva": "diesel",
+    "Vagoane": [422, 764, 634, 496]
+  },
+  {
+    "CodTren": 14011,
+    "TipLocomotiva": "electrica",
+    "Vagoane": [514, 483, 448, 422]
+  },
+  {
+    "CodTren": 23238,
+    "TipLocomotiva": "electrica",
+    "Vagoane": [898, 292, 697, 538]
+  },
+  {
+    "CodTren": 69429,
+    "TipLocomotiva": "aburi",
+    "Vagoane": [142, 307, 593, 601, 666]
+  },
+  {
+    "CodTren": 83303,
+    "TipLocomotiva": "diesel",
+    "Vagoane": [339, 187, 634, 601]
+  },
+  {
+    "CodTren": 71469,
+    "TipLocomotiva": "aburi",
+    "Vagoane": [289, 755, 360]
+  },
+  {
+    "CodTren": 57388,
+    "TipLocomotiva": "electrica",
+    "Vagoane": [852, 831, 753, 737]
+  },
+  {
+    "CodTren": 15924,
+    "TipLocomotiva": "diesel",
+    "Vagoane": [755, 753]
+  },
+  {
+    "CodTren": 67213,
+    "TipLocomotiva": "aburi",
+    "Vagoane": [671, 669, 668]
+  },
+  {
+    "CodTren": 30547,
+    "TipLocomotiva": "electrica",
+    "Vagoane": [560, 575]
+  }
+]

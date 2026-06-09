@@ -1,0 +1,52 @@
+Fie datele de intrare (in directorul date):
+
+a) Fișierul text PretVolum.txt conține o listă de prețuri pentru o zi de tranzacționare la bursă a unor titluri 
+în formatul de mai jos:
+Simbol,Deschidere,Max,Min,Inchidere,Volum
+AACG,1.47,1.5216,1.47,1.485,14700
+AACI,10.239,10.239,10.239,10.239,100
+AADI,8.01,8.09,7.87,8.06,74700
+…
+Simbol – string; prețuri: Deschidere, Max, Min, Inchidere – double; Volum – long.
+b) Tabela Titluri din baza de date SQLite Titluri.db cu următoarele câmpuri: Simbol – string; Denumire – string.
+Simbol	Denumire
+AACG	Ata Creativii Global ADR
+AACI	Armada Acquisition Corp I
+AADI	Aadi Biosciences Inc
+...
+
+Să se scrie o aplicație Java care să rezolve următoarele cerințe:
+
+1) Să se afișeze la consolă titlul cu cea mai mica valoare tranzacționată și titlul cu cea mai mare valoare 
+tranzacționată (valoare =  Inchidere * Volum), în formatul:
+Simbol		Valoare
+...
+Punctaj: 2 puncte
+Criteriu de acordare a punctajului: afișarea corectă la consolă.
+
+2) Să se afișeze la consolă titlurile sortate descrescător după volumul tranzacționat, in formatul:
+Simbol		Denumire	Volum
+....
+Punctaj: 2 puncte
+Criteriu de acordare a punctajului: afișarea corectă la consolă.
+
+3) Să se afișeze la consolă titlurile sortate descrescător după diferența dintre prețul Max și prețul Min. 
+Se vor lua în considerare numai titlurile pentru care această diferență este mai mare de 1%.
+Simbol		Denumire	Diferenta (Max-Min > 1%)
+....
+Punctaj: 2 puncte
+Criteriu de acordare a punctajului: afișarea corectă la consolă
+
+4) Să implementeze funcționalitățile de server și client TCP/IP și să se execute următorul scenariu:
+- componenta client trimite serverului un simbolul unui titlu,
+- iar componenta server va întoarce denumirea companiei, prețul de închidere si volumul tranzacționat,
+- componenta server poate servi oricâți clienți.
+Punctaj: 3 puncte
+Criteriu de acordare a punctajului: 2 puncte pentru afișare la consolă comunicare corectă client-server,
+1 punct pentru implementare în care serverul poate servi oricâți clienți.
+
+Observatii:
+- 1p din oficiu
+- criteriu de acordare a punctajului: afișarea corectă conform cerinței
+- nu se acordă punctaj parțial pentru cerințe
+- nu se acordă punctaj pentru programe cu erori de compilare sau de execuție

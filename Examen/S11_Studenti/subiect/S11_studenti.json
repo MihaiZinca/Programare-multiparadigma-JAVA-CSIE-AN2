@@ -1,0 +1,52 @@
+[
+  {
+    "IdStudent": 1,
+    "Nume": "Istrate",
+    "Prenume": "Mihai"
+  },
+  {
+    "IdStudent": 2,
+    "Nume": "Turcu",
+    "Prenume": "Emilia"
+  },
+  {
+    "IdStudent": 3,
+    "Nume": "Popescu",
+    "Prenume": "Maria"
+  },
+  {
+    "IdStudent": 4,
+    "Nume": "Ionescu",
+    "Prenume": "Alexandru"
+  },
+  {
+    "IdStudent": 5,
+    "Nume": "Avram",
+    "Prenume": "Ana-Maria"
+  },
+  {
+    "IdStudent": 6,
+    "Nume": "Georgescu",
+    "Prenume": "Andrei"
+  },
+  {
+    "IdStudent": 7,
+    "Nume": "Stanescu",
+    "Prenume": "Andreea"
+  },
+  {
+    "IdStudent": 8,
+    "Nume": "Constantin",
+    "Prenume": "Mihai"
+  },
+  {
+    "IdStudent": 9,
+    "Nume": "Dragomir",
+    "Prenume": "Elena"
+  },
+  {
+    "IdStudent": 10,
+    "Nume": "Marinescu",
+    "Prenume": "Ionut"
+  }
+]

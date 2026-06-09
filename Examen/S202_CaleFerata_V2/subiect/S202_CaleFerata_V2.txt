@@ -1,0 +1,74 @@
+Subiectul 202 - Cale ferată V2
+
+Fie următoarele date de intrare:
+
+a) Fișierul text S202_Vagoane.csv conținând informații despre vagoanele disponibile într-un depou (cod - întreg unic, tip - text, capacitate - întreg) în următorul format:
+
+197,gondola,43
+634,cereale,53
+593,gondola,57
+...
+
+b) Informații despre garniturile de tren în fișierul JSON S202_Trenuri.json. 
+Fișerul conține o listă de obiecte tren (cod tren - întreg, tip tren - string, lista de coduri de vagoane).
+
+Exemplu:
+[
+  {
+    "CodTren": 59615,
+    "TipLocomotiva": "diesel",
+    "Vagoane": [632, 655]
+  },
+  {
+    "CodTren": 92397,
+    "TipLocomotiva": "aburi",
+    "Vagoane": [671, 757, 831, 197, 631]
+  },
+...
+]
+
+1 - 2p) Să se citească lista de vagoane și să se afișeze capacitatea totală pentru fiecare tip de vagon.
+1p - citire și afișare date, 1p - grupare și afișare conform cerinței
+
+Exemplu:
+========== CERINTA 1 ==========
+  cisterna - 718
+...
+
+2 - 2p) Pentru fiecare tren să se afișeze codul, tipul locomotivei și numărul de vagoane. Lista va fi sortată în funcție de codul trenului.
+1p - citire și afișare cod și tip locomotiva, 1p - sortare
+
+Exemplu:
+========== CERINTA 2 ==========
+14011  electrica 4
+15924     diesel 2
+16006      aburi 2
+...
+
+3 - 2p) Pentru un tip de vagon citit de la consolă să se genereze un raport text care să conțină:
+CodulTrenului, TipulLocomotivei, Capacitate totală pentru tipul selectat
+
+Exemplu:
+========== CERINTA 3 ==========
+Tip: cereale
+85674     diesel   293 tone - cereale
+69429      aburi   272 tone - cereale
+92397      aburi   227 tone - cereale
+....
+
+4 - 3p) Să se implementeze funcționalitățile de server și client TCP/IP și să se
+execute următorul scenariu: componenta client trimite serverului un tip de vagon
+iar componenta server va întoarce clientului capacitatea totală disponibila și închide conexiunea.
+
+Server-ul este pornit pe thread secundar din funcția main.
+Server-ul servește în paralel un număr nelimitat de conexiuni.
+Se vor porni 5 fire de execuție în paralel pentru codul client.
+
+(1p - implementare server și client, 2p - implementare server și client multithreaded conform cerinței)
+
+
+Observatii:
+- 1p din oficiu
+- criteriu de acordare a punctajului: afișarea corectă conform cerinței
+- nu se acordă punctaj parțial pentru cerințe
+- nu se acordă punctaj pentru programe cu erori de compilare sau de execuție

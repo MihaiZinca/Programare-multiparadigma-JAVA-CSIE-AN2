@@ -1,0 +1,73 @@
+Fie datele de intrare în:
+
+a) Fișierul JSON "S11_studenti.json" conținând informații despre studenți:
+
+IdStudent (integer)
+Nume (string)
+Prenume (string)
+
+Exemplu conținut fișier "S11_studenti.json":
+[
+  {
+    "IdStudent": 1,
+    "Nume": "Istrate",
+    "Prenume": "Mihai"
+  },
+  {
+    "IdStudent": 2,
+    "Nume": "Turcu",
+    "Prenume": "Emilia"
+  },
+  {
+    "IdStudent": 3,
+    "Nume": "Popescu",
+    "Prenume": "Maria"
+  },
+...
+]
+
+b) Fișierul text "S11_note.txt" cu următoarele informații pe fiecare linie:
+
+IdStudent (integer)
+Materie (string, nu poate conține caracterul virgulă)
+Nota (double)
+
+Se presupune că un student are cel mult o notă la o materie.
+
+Exemplu:
+1,PAW,9
+2,Java,9
+2,SD,8.5
+...
+
+Cerințe:
+
+2p - 1) Să se citească datele din fișierul "S11_studenti.json" și să se afișeze la consolă numărul total de studenți.
+
+Exemplu:
+1) - Numar total studenti: 17
+
+
+3p - 2) Să se citească datele din fișierul "S11_note.txt" și să se afișeze la consolă numărul de note pentru fiecare disciplină.
+(1.5 puncte pentru afișarea listei de discipline)
+
+Exemplu:
+2) - Lista discipline:
+Java - 2 note
+SD - 4 note
+
+2p - 3) Pentru o denumire de materie introdusă de la consolă să se afișeze catalogul în formatul:
+
+Nume Student, Prenume Student, Nota
+
+
+2p - 4) Să se implementeze funcționalitățile de server și client TCP/IP și să se execute următorul scenariu:
+- componenta client trimite serverului un ID de student și o materie;
+- componenta server va întoarce clientului nota obținută de student la materia respectivă.
+
+Observatii:
+- 1p din oficiu
+- criteriu de acordare a punctajului: afișarea corectă conform cerinței
+- nu se acordă punctaj parțial pentru cerințe
+- nu se acordă punctaj pentru programe cu erori de compilare sau de execuție
+

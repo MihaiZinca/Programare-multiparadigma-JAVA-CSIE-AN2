@@ -1,0 +1,22 @@
+[
+  {
+    "cod_sectie": 1,
+    "denumire": "ORL",
+    "numar_locuri": 10
+  },
+  {
+    "cod_sectie": 2,
+    "denumire": "DERMATOLOGIE",
+    "numar_locuri": 7
+  },
+  {
+    "cod_sectie": 3,
+    "denumire": "OFTALMOLOGIE",
+    "numar_locuri": 4
+  },
+  {
+    "cod_sectie": 4,
+    "denumire": "CARDIOLOGIE",
+    "numar_locuri": 5
+  }
+]

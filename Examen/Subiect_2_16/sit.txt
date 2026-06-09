@@ -1,0 +1,5 @@
+Cod sectie, Denumire sectie, Numar locuri, Varsta medie
+2 DERMATOLOGIE 7 50.5
+3 OFTALMOLOGIE 4 47.5
+1 ORL 10 45.0
+4 CARDIOLOGIE 5 0.0
