@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<materii_prime>
+    <materie_prima>
+        <Cod>1</Cod>
+        <denumire>Faina 650</denumire>
+        <valoare>38800.0</valoare>
+    </materie_prima>
+    <materie_prima>
+        <Cod>2</Cod>
+        <denumire>Zahar</denumire>
+        <valoare>262.5</valoare>
+    </materie_prima>
+    <materie_prima>
+        <Cod>3</Cod>
+        <denumire>Drojdie</denumire>
+        <valoare>395.0</valoare>
+    </materie_prima>
+    <materie_prima>
+        <Cod>4</Cod>
+        <denumire>Sare</denumire>
+        <valoare>288.75</valoare>
+    </materie_prima>
+</materii_prime>
