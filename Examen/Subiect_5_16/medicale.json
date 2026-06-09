@@ -1,0 +1,92 @@
+[
+  {
+    "specialitate": "Oftalmologie",
+    "manevre": [
+      {
+        "cod": 101,
+        "durata": 20,
+        "tarif": 100.5
+      },
+      {
+        "cod": 102,
+        "durata": 15,
+        "tarif": 75.5
+      },
+      {
+        "cod": 103,
+        "durata": 25,
+        "tarif": 105.5
+      },
+      {
+        "cod": 104,
+        "durata": 30,
+        "tarif": 165.5
+      }
+    ]
+  },
+  {
+    "specialitate": "Pediatrie",
+    "manevre": [
+      {
+        "cod": 201,
+        "durata": 20,
+        "tarif": 85.5
+      },
+      {
+        "cod": 202,
+        "durata": 25,
+        "tarif": 135.5
+      },
+      {
+        "cod": 203,
+        "durata": 35,
+        "tarif": 225.5
+      }
+    ]
+  },
+  {
+    "specialitate": "Recuperare",
+    "manevre": [
+      {
+        "cod": 301,
+        "durata": 90,
+        "tarif": 185.5
+      },
+      {
+        "cod": 302,
+        "durata": 55,
+        "tarif": 115.5
+      },
+      {
+        "cod": 303,
+        "durata": 60,
+        "tarif": 125.5
+      },
+      {
+        "cod": 304,
+        "durata":75,
+        "tarif": 165.5
+      }
+    ]
+  },
+  {
+    "specialitate": "Cardiologie",
+    "manevre": [
+      {
+        "cod": 401,
+        "durata": 20,
+        "tarif": 155.5
+      },
+      {
+        "cod": 402,
+        "durata": 25,
+        "tarif": 125.5
+      },
+      {
+        "cod": 403,
+        "durata": 15,
+        "tarif": 95.5
+      }
+    ]
+  }
+]

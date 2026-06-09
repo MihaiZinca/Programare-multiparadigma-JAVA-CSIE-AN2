@@ -1,0 +1,94 @@
+Fie datele de intrare (in directorul date):
+
+a) Fișierul medicale.json conține o lista de specialitati medicale impreuna cu manevrele specifice ce pot fi efectuate
+ pentru fiecare specialitate, în formatul de mai jos:
+[
+  {
+    "specialitate": "Oftalmologie",
+    "manevre": [
+      {
+        "cod": 101,
+        "durata": 20,
+        "tarif": 100.5
+      },
+      {
+        "cod": 102,
+        "durata": 15,
+        "tarif": 75.5
+      },
+      ...
+    ]
+  },
+ ...
+]
+
+b) Tabela Conlsultatii din baza de date SQLite consultatii.db contine urmatoarele coloane: Specialitate – text,
+CodManevra - intreg, Numar – intreg, unde Numar reprezinta numarul de manevre efectuate.
+Specialitate|CodManevra|Numar|
+------------+----------+-----+
+Oftalmologie|       101|    5|
+Oftalmologie|       102|   12|
+Oftalmologie|       103|    7|
+Oftalmologie|       104|   23|
+Pediatrie   |       201|   16|
+Pediatrie   |       202|   21|
+...
+
+Să se scrie o aplicație Java care să rezolve următoarele cerințe:
+
+1) Să se afișeze la consolă, pentru fiecare specialitate medicala, manevrele disponibile in ordine descrescatoare
+a duratei, în urmatorul format:
+Specialitate        Cod manevra     Durata
+Oftalmologie        104             30
+Oftalmologie        103             25
+Oftalmologie        101             20
+Oftalmologie        102             15
+...
+Punctaj: 2 puncte
+Criteriu de acordare a punctajului: afișarea corectă la consolă.
+
+2) Să se afișeze la consolă specialitatile medicale sortate descrescator dupa veniturile generate de manevrele
+efectuate pentru fiecare specialitate, in formatul:
+Specialitate        Venit generat
+Oftalmologie        25400.5
+Cardiologie         21505.5
+...
+Punctaj: 2 puncte
+Criteriu de acordare a punctajului: afișarea corectă la consolă.
+
+3) Să se salveze in fisierul manevreMedicale.xml, pentru fiecare specialitate medicala, manevrele
+care au fost efectuate de cel putin 20 de ori, in formatul:
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<medicale>
+    <specialitate>
+        <denumire>Oftalmologie</denumire>
+        <manevre>
+            <manevra cod="102" numar="22" />
+            <manevra cod="104" numar="23" />
+        </manevre>
+    </specialitate>
+    <specialitate>
+        <denumire>Pediatrie</denumire>
+        <manevre>
+            <manevra cod="202" numar="21" />
+        </manevre>
+    </specialitate>
+...
+</medicale>
+Punctaj: 2 puncte
+Criteriu de acordare a punctajului: scriere corecta in fisierul XML.
+
+4) Să implementeze funcționalitățile de server și client TCP/IP și să se execute următorul scenariu:
+- componenta client trimite serverului o specialitate medicala,
+- iar componenta server va întoarce lista cu manevrele si numarul de manevre efectuate pentru pentru specialitate
+medicala primita,
+- componenta server poate servi oricâți clienți.
+Punctaj: 3 puncte
+Criteriu de acordare a punctajului: 2 puncte pentru afișare la consolă comunicare corectă client-server,
+1 punct pentru implementare în care serverul poate servi oricâți clienți.
+
+Observatii:
+- 1p din oficiu
+- criteriu de acordare a punctajului: afișarea corectă conform cerinței
+- nu se acordă punctaj parțial pentru cerințe
+- nu se acordă punctaj pentru programe cu erori de compilare sau de execuție
