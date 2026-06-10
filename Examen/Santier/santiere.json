@@ -1,0 +1,23 @@
+[
+  {
+    "Cod Santier": 1,
+    "Localitate": "Corbeanca",
+    "Strada": "Planorului",
+    "Obiectiv": "Casa parter/etaj",
+    "Valoare": 150000.0
+  },
+  {
+    "Cod Santier": 2,
+    "Localitate": "Corbeanca",
+    "Strada": "Soarelui",
+    "Obiectiv": "Complex locuinte p+5",
+    "Valoare": 1000000.0
+  },
+  {
+    "Cod Santier": 3,
+    "Localitate": "Otopeni",
+    "Strada": "Aeroportului",
+    "Obiectiv": "Hala depozitare",
+    "Valoare": 350000.0
+  }
+]

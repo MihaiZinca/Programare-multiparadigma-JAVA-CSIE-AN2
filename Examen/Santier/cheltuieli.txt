@@ -1,0 +1,5 @@
+1,1,Fier beton,kg,13000.0,0.8
+2,1,Manopera fier beton,h,300.0,30.0
+1,2,Caramida,palet,26.0,500.0
+3,1,Ciment,sac,50.0,25.0
+4,2,Manopera zidarie,h,120.0,35.0
