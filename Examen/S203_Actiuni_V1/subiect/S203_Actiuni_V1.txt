@@ -1,0 +1,76 @@
+Subiectul 202 - Actiuni V2
+
+Fie următoarele date de intrare:
+
+a) Fișierul text S203_Actiuni.csv conținând informații despre acțiunile disponibile (simbol - text unic, denumire - text, ziua1-5 - float) în următorul format:
+
+TLV,Banca Transilvania S.A.,32.16,32.24,31.64,31.22,30.9
+SNP,OMV Petrom S.A.,0.7635,0.749,0.7435,0.733,0.73
+...
+
+b) Informații despre tranzacțiile aferente unui portofoliu client în fișierul JSON S203_Tranzactii.json. 
+Fișerul conține o listă de obiecte tranzacție cu următoarele informații:
+* Date - text, 
+* Direction - text, 'Buy' clientul cumpără sau 'Sell' clientul vinde
+* Symbol: text, una dintre acțiunile de la punctul a)
+* Quantity - întreg, numărul de acțiuni tranzacționate
+* Price - float, prețul per acțiune
+
+Exemplu:
+[
+  {
+    "Date": "2025-06-17",
+    "Direction": "Buy",
+    "Symbol": "H2O",
+    "Quantity": 500,
+    "Price": 122.0
+  },
+  {
+    "Date": "2025-06-17",
+    "Direction": "Sell",
+    "Symbol": "SNP",
+    "Quantity": 1000,
+    "Price": 0.7635
+  },
+...
+]
+
+1 - 2p) Să se citească lista de acțiuni și să se afișeze acțiunea cu cea mai mare creștere procentuală între ziua 1 și ziua 5 (curentă). Calcul: (ziua5 - ziua1) * 100 / ziua1
+
+Exemplu:
+========== CERINTA 1 ==========
+TGN - crestere  0.75%
+
+2 - 2p) Să se afișeze primele 5 tranzacții de cumpărare în ordinea descrescătoare a valorii.
+
+Exemplu:
+========== CERINTA 2 ==========
+2025-06-17 Buy   H2O: 500 x   122.00 RON =   61000.00 RON
+2025-06-04 Buy   H2O: 220 x   120.90 RON =   26598.00 RON
+...
+
+3 - 2p) Să se genereze un raport text care să conțină statistici pentru fiecare acțiune disponibilă, sortat alfabetic în funcție de simbol.
+Simbol, Denumire, Total Actiuni Vândute, Total Actiuni Cumpărate
+
+Exemplu:
+========== CERINTA 3 ==========
+BRD,BRD - Groupe SG S.A.,500,880
+DIGI,Digi Communications N.V.,500,350
+....
+
+4 - 3p) Să se implementeze funcționalitățile de server și client TCP/IP și să se
+execute următorul scenariu: componenta client trimite serverului un simbol și o direcție (Buy / Sell)
+iar componenta server va întoarce clientului lista de tranzacții pentru simbolul și direcția specificată.
+
+Server-ul este pornit pe thread secundar din funcția main.
+Server-ul servește în paralel un număr nelimitat de conexiuni.
+Se vor porni 5 fire de execuție în paralel pentru codul client.
+
+(1p - implementare server și client, 2p - implementare server și client multithreaded conform cerinței)
+
+
+Observatii:
+- 1p din oficiu
+- criteriu de acordare a punctajului: afișarea corectă conform cerinței
+- nu se acordă punctaj parțial pentru cerințe
+- nu se acordă punctaj pentru programe cu erori de compilare sau de execuție

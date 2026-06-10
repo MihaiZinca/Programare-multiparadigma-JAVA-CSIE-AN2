@@ -1,0 +1,212 @@
+[
+  {
+    "Date": "2025-06-17",
+    "Direction": "Buy",
+    "Symbol": "H2O",
+    "Quantity": 500,
+    "Price": 122.0
+  },
+  {
+    "Date": "2025-06-17",
+    "Direction": "Sell",
+    "Symbol": "SNP",
+    "Quantity": 1000,
+    "Price": 0.7635
+  },
+  {
+    "Date": "2025-06-17",
+    "Direction": "Buy",
+    "Symbol": "EL",
+    "Quantity": 300,
+    "Price": 14.76
+  },
+  {
+    "Date": "2025-06-16",
+    "Direction": "Sell",
+    "Symbol": "TLV",
+    "Quantity": 400,
+    "Price": 32.24
+  },
+  {
+    "Date": "2025-06-16",
+    "Direction": "Buy",
+    "Symbol": "SNG",
+    "Quantity": 200,
+    "Price": 6.89
+  },
+  {
+    "Date": "2025-06-16",
+    "Direction": "Sell",
+    "Symbol": "TEL",
+    "Quantity": 150,
+    "Price": 50.4
+  },
+  {
+    "Date": "2025-06-13",
+    "Direction": "Buy",
+    "Symbol": "DIGI",
+    "Quantity": 350,
+    "Price": 70.9
+  },
+  {
+    "Date": "2025-06-13",
+    "Direction": "Sell",
+    "Symbol": "TGN",
+    "Quantity": 180,
+    "Price": 33.4
+  },
+  {
+    "Date": "2025-06-13",
+    "Direction": "Buy",
+    "Symbol": "BRD",
+    "Quantity": 450,
+    "Price": 18.74
+  },
+  {
+    "Date": "2025-06-12",
+    "Direction": "Sell",
+    "Symbol": "SNN",
+    "Quantity": 120,
+    "Price": 41.1
+  },
+  {
+    "Date": "2025-06-12",
+    "Direction": "Buy",
+    "Symbol": "SNP",
+    "Quantity": 800,
+    "Price": 0.733
+  },
+  {
+    "Date": "2025-06-12",
+    "Direction": "Sell",
+    "Symbol": "EL",
+    "Quantity": 250,
+    "Price": 14.02
+  },
+  {
+    "Date": "2025-06-11",
+    "Direction": "Buy",
+    "Symbol": "TLV",
+    "Quantity": 600,
+    "Price": 30.9
+  },
+  {
+    "Date": "2025-06-11",
+    "Direction": "Sell",
+    "Symbol": "DIGI",
+    "Quantity": 220,
+    "Price": 71.2
+  },
+  {
+    "Date": "2025-06-11",
+    "Direction": "Buy",
+    "Symbol": "TEL",
+    "Quantity": 100,
+    "Price": 49.9
+  },
+  {
+    "Date": "2025-06-10",
+    "Direction": "Sell",
+    "Symbol": "H2O",
+    "Quantity": 150,
+    "Price": 121.0
+  },
+  {
+    "Date": "2025-06-10",
+    "Direction": "Buy",
+    "Symbol": "SNG",
+    "Quantity": 300,
+    "Price": 6.81
+  },
+  {
+    "Date": "2025-06-10",
+    "Direction": "Sell",
+    "Symbol": "BRD",
+    "Quantity": 500,
+    "Price": 19.34
+  },
+  {
+    "Date": "2025-06-06",
+    "Direction": "Buy",
+    "Symbol": "EL",
+    "Quantity": 400,
+    "Price": 14.82
+  },
+  {
+    "Date": "2025-06-06",
+    "Direction": "Sell",
+    "Symbol": "SNN",
+    "Quantity": 200,
+    "Price": 42.15
+  },
+  {
+    "Date": "2025-06-06",
+    "Direction": "Buy",
+    "Symbol": "TLV",
+    "Quantity": 350,
+    "Price": 29.52
+  },
+  {
+    "Date": "2025-06-05",
+    "Direction": "Sell",
+    "Symbol": "DIGI",
+    "Quantity": 280,
+    "Price": 73.2
+  },
+  {
+    "Date": "2025-06-05",
+    "Direction": "Buy",
+    "Symbol": "SNP",
+    "Quantity": 900,
+    "Price": 0.742
+  },
+  {
+    "Date": "2025-06-05",
+    "Direction": "Sell",
+    "Symbol": "TGN",
+    "Quantity": 230,
+    "Price": 35.0
+  },
+  {
+    "Date": "2025-06-04",
+    "Direction": "Buy",
+    "Symbol": "H2O",
+    "Quantity": 220,
+    "Price": 120.9
+  },
+  {
+    "Date": "2025-06-04",
+    "Direction": "Sell",
+    "Symbol": "EL",
+    "Quantity": 310,
+    "Price": 14.76
+  },
+  {
+    "Date": "2025-06-04",
+    "Direction": "Buy",
+    "Symbol": "BRD",
+    "Quantity": 430,
+    "Price": 19.9
+  },
+  {
+    "Date": "2025-06-03",
+    "Direction": "Sell",
+    "Symbol": "TEL",
+    "Quantity": 290,
+    "Price": 49.95
+  },
+  {
+    "Date": "2025-06-03",
+    "Direction": "Buy",
+    "Symbol": "SNG",
+    "Quantity": 360,
+    "Price": 6.96
+  },
+  {
+    "Date": "2025-06-03",
+    "Direction": "Sell",
+    "Symbol": "SNN",
+    "Quantity": 140,
+    "Price": 42.2
+  }
+]

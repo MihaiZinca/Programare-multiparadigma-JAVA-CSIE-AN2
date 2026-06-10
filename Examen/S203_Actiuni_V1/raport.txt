@@ -1,0 +1,11 @@
+Simbol, Denumire, Total Actiuni Vândute, Total Actiuni Cumpărate
+BRD,BRD - Groupe SG S.A.,500,880
+DIGI,Digi Communications N.V.,500,350
+EL,Electrica S.A.,560,700
+H2O,Hidroelectrica S.A.,150,720
+SNG,S.N.G.N. Romgaz S.A.,0,860
+SNN,S.N. Nuclearelectrica S.A.,460,0
+SNP,OMV Petrom S.A.,1000,1700
+TEL,Transelectrica S.A.,440,100
+TGN,Transgaz S.A.,410,0
+TLV,Banca Transilvania S.A.,400,950
