@@ -1,0 +1,6 @@
+Denumire_aventura, Numar_locuri_rezervate, valoare
+CATARARE 7 178.5
+TIROLIANA 15 450.0
+TIROLIANA COPII 4 80.0
+TRAMBULINA 12 180.0
+ZBOR CU PARAPANTA 4 600.0

@@ -1,0 +1,32 @@
+[
+  {
+    "cod_aventura": 101,
+    "denumire": "CATARARE",
+    "tarif": 25.5,
+    "locuri_disponibile": 15
+  },
+  {
+    "cod_aventura": 102,
+    "denumire": "TIROLIANA",
+    "tarif": 30.0,
+    "locuri_disponibile": 25
+  },
+  {
+    "cod_aventura": 103,
+    "denumire": "TIROLIANA COPII",
+    "tarif": 20.0,
+    "locuri_disponibile": 8
+  },
+  {
+    "cod_aventura": 104,
+    "denumire": "TRAMBULINA",
+    "tarif": 15.0,
+    "locuri_disponibile": 30
+  },
+  {
+    "cod_aventura": 105,
+    "denumire": "ZBOR CU PARAPANTA",
+    "tarif": 150.0,
+    "locuri_disponibile": 5
+  }
+]
