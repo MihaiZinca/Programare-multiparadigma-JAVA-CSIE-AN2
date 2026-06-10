@@ -1,0 +1,48 @@
+Fie datele de intrare referitoare la evaluarea unor articole stiitifice primite la editura unei reviste:
+
+a) articole.txt - Informatiile referitoare la articole si anume: cod articol (intreg),
+nume autor (sir de caractere), acronim institutie autor (sir de caractere).
+Exemplu:
+1,Pop Marian,ASE
+2,Popescu Maria,UniBuc
+...
+b) evaluari.json - Informatii privind evalurile si anume: cod evaluator (intreg),
+cod articol (intreg), nivel stiitific (intreg de la 0 la 10), notorietate (intreg de la 0 la 10),
+citari (intreg de la 0 la 10).
+Exemplu:
+[
+  {
+    "Cod evaluator": 1,
+    "Cod articol": 1,
+    "Nivel stiintific": 7,
+    "Notorietate": 6,
+    "Citari": 5
+  },
+  ...
+]
+
+Cerinte:
+1) Sa se afiseze la consola numarul de articole primite spre evaluare
+Barem: 2 puncte
+Criteriu de acordare a baremului: afisarea corecta a numarului de articole
+
+2) Sa se afiseze la consola numarul de evaluari pentru fiecare articol.
+Pentru fiecare articol se va afisa codul articolului si numarul de evaluari.
+Barem: 2 puncte
+Criteriu de acordare a baremului: afisarea corecta a rezultatului (n linii, unde
+n este numarul de articole)
+
+3) Sa se salveze in fisierul jurnal.txt articolele sortate descrescator dupa punctajul mediu
+obtinut la evaluari. Punctajul obtinut la o evaluare este calculat astfel:
+Punctaj = Nivel stiintific + Notorietate + Citari
+Pentru fiecare articol se va afisa codul, numele autorului si punctajul mediu.
+Barem: 2 puncte
+Criteriu de acordare: urmarirea continutului fisierului jurnal.txt
+
+4) Să se implementeze funcționalitățile de server și client TCP/IP și să se execute următorul scenariu:
+    - componenta client trimite serverului un cod de articol;
+    - componenta server va întoarce clientului lista de evaluari corespunzatoare.
+    - serverul va fi pornit din programul principal pe un fir de execuție nou și va servi o singură cerere
+
+Punctaj: 3 puncte (2p - comunicare corecta client / server; 1p - pornire server pe fir de execuție nou)
+Criteriu de acordare a punctajului: afișarea corectă la consolă

@@ -1,0 +1,51 @@
+[
+  {
+    "Cod evaluator": 1,
+    "Cod articol": 1,
+    "Nivel stiintific": 7,
+    "Notorietate": 6,
+    "Citari": 5
+  },
+  {
+    "Cod evaluator": 2,
+    "Cod articol": 1,
+    "Nivel stiintific": 9,
+    "Notorietate": 7,
+    "Citari": 6
+  },
+  {
+    "Cod evaluator": 1,
+    "Cod articol": 2,
+    "Nivel stiintific": 5,
+    "Notorietate": 6,
+    "Citari": 4
+  },
+  {
+    "Cod evaluator": 2,
+    "Cod articol": 2,
+    "Nivel stiintific": 5,
+    "Notorietate": 5,
+    "Citari": 4
+  },
+  {
+    "Cod evaluator": 1,
+    "Cod articol": 3,
+    "Nivel stiintific": 9,
+    "Notorietate": 8,
+    "Citari": 8
+  },
+  {
+    "Cod evaluator": 2,
+    "Cod articol": 3,
+    "Nivel stiintific": 10,
+    "Notorietate": 9,
+    "Citari": 6
+  },
+  {
+    "Cod evaluator": 3,
+    "Cod articol": 3,
+    "Nivel stiintific": 7,
+    "Notorietate": 7,
+    "Citari": 7
+  }
+]

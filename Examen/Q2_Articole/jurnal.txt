@@ -1,0 +1,3 @@
+3 Ionescu Dan 23
+1 Pop Marian 20
+2 Popescu Maria 14
