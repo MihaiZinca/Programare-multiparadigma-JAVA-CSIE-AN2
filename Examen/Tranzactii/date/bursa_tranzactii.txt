@@ -1,0 +1,8 @@
+1,SNP,cumparare,100,0.45
+1,BRD,cumparare,50,12.5
+2,FP,cumparare,300,2.10
+1,SNP,vanzare,20,0.47
+3,TLV,cumparare,200,2.40
+2,FP,vanzare,65,2.15
+4,BRD,cumparare,10,12.6
+5,SNP,cumparare,15,0.44
